@@ -19,6 +19,27 @@ class site
         return $controllers;
     }
 
+    //Checking Unit Ttest Works
+    public function selectOption($option){
+        $result = 'Sin seleccionar';
+        switch ($option) {
+	        case '1':
+                $result = 'Opcion 1';
+            break;
+            case '2':
+                $result = 'Opcion 2';
+            break;
+            case '3':
+                $result = 'Opcion 3';
+            break;
+		
+	        default:
+	            $result = 'Sin seleccionar';
+		    break;
+	    }
+        return $result;
+    }
+
     public function mysqlConex(){
         $host = 'localhost';
         $user = 'grupo5g_juguete';
@@ -59,9 +80,9 @@ class site
     }
 
     public function siteTitulo(){
-        $title = 'Restaurante Temático La Juguetería';
+        $title = 'Restaurante Tematico La Jugueteria';
         if(!isset($_GET['seccion'])){
-          $title = 'Restaurante Temático La Juguetería';
+          $title = 'Restaurante Tematico La Jugueteria';
         }else{
           switch ($_GET['seccion']) {
             case 'menu':
