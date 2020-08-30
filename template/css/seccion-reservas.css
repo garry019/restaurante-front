@@ -1,0 +1,270 @@
+.reservas-online-content{
+  background-color: #c90000;
+  padding-top: 60px;
+}
+.reservas-online-content .jumbotron{
+  background: #fff;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.reservas-online-content .jumbotron h2 a{
+  color: #c90000;
+  text-decoration: none;
+}
+.reservas-online-content .jumbotron h1{
+  font-family: 'Titulos';
+  color: #c90000;
+}
+.reservas-online-content .jumbotron h2{
+  font-family: 'Subtitulos';
+  color: #c90000;
+}
+.reservas-online-content .jumbotron p{
+  font-family: 'Bart1';
+}
+.reservas-online-content .jumbotron .btn{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.reservas-online-content .jumbotron:hover{
+  background: rgba(0,0,0,0.3);
+  color:#fff;
+}
+.reservas-online-content .jumbotron:hover h1{
+  color: #fff;
+  text-shadow: 1px 1px 5px yellow;
+}
+
+.nueva-reserva{
+  background-image: url('../../images/ubicacion-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.nueva-reserva h1{
+  font-family: 'Titulos';
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 4em;
+  letter-spacing: 1.5px;
+  text-shadow: 1px 1px 5px #c90000;
+  margin-top: 0;
+  padding-top: 100px;
+}
+
+.nueva-reserva h1 small{
+  font-size: 0.3em;
+  color: #fff;
+  text-shadow: none;
+  background: #c90000;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: 'Bart1';
+}
+
+.formMod{
+  margin-bottom: 15px;
+}
+
+.formMod-content{
+  background: #f9e79b;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 2px 2px 2px #d7571a;
+}
+.formMod-content h2{
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-family: 'Bart1';
+  color: #c90000;
+}
+.formMod-content h2 i{
+  color: #fff;
+}
+.formMod-content input{
+  border: 1px solid #d7571a;
+  text-align: center;
+}
+.formMod-content select{
+  text-align: center;
+  border: 1px solid #d7571a;
+}
+.formMod-content select option{
+  text-align: center;
+}
+.formMod-content label{
+  font-family: 'Bart2';
+  color: #c90000;
+  font-size: 1.5em;
+}
+.formMod-content .checkbox input{
+  margin-top: 9px;
+  border: 1px solid #c90000;
+}
+.formMod-content button{
+  margin-top: 15px;
+  font-family: 'Titulos';
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 1.5px;
+  padding-bottom: 0;
+}
+.formMod-content .destorte{
+  border: 1px solid #a22430;
+  border-radius: 5px;
+  color:  #a22430;
+  font-size: 0.8em;
+  padding: 5px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.reservaHorariosClientes{
+  display: none;
+  background: #fff;
+  position: absolute;
+  top: 15px;
+  left: 5%;
+  width: 90%;
+  height: 87%;
+  z-index: 1;
+  color: #000;
+  border-radius: 5px;
+}
+#btn-horariosRestaurantes{
+  border: 1px solid #c90000;
+  width: 200px;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding-top: 2px;
+  padding-bottom: 10px;
+}
+#btn-horariosRestaurantes:hover{
+  cursor: pointer;
+  border: 1px solid #fff;
+  color:#fff;
+}
+.cerrar-reservaHorariosClientes{
+  text-align: right;
+  padding-right: 15px;
+  font-family: 'Bart2';
+  font-size: 2em;
+  margin-bottom: 5%;
+}
+.cerrar-reservaHorariosClientes:hover{
+  cursor: pointer;
+}
+.vistaHorariosClientes h3{
+  font-family: 'Subtitulos';
+  margin-top: -15px;
+  margin-bottom: 0;
+  color: #c90000;
+}
+
+@media only screen and (max-width: 767px) {
+  .nueva-reserva h1 small{
+    font-size: 0.2em;
+  }
+}
+
+.ajaxLoading{
+  color: #c90000;
+  font-family: 'Bart1';
+}
+
+.confirmacionNombre{
+  font-family: 'Subtitulos';
+  color: #c90000;
+  font-size: 2em;
+}
+.confirmacionSede{
+  font-family: 'Titulos';
+  color: #c90000;
+  font-size: 3em;
+}
+.confirmacionFecha{
+  font-family: 'Subtitulos';
+  color: #c90000;
+  font-size: 1em;
+}
+.confirmacionNombre,
+.confirmacionSede,
+.confirmacionFecha{
+  text-shadow: 1px 1px 1px yellow;
+}
+.dataTitulo{
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000;
+  font-family: 'Bart1';
+  letter-spacing: 1.5px;
+}
+.erroresReserva{
+  color: #c90000;
+  border: 1px solid #c90000;
+  border-radius: 5px;
+  font-family: 'Subtitulos';
+  font-size: 2em;
+  display: none;
+}
+
+.cancelarReserva{
+  display: none;
+  padding-top:80px;
+  background: #c90000;
+}
+.cancelarReserva h1{
+  color: #fff;
+  font-family: 'Titulos';
+  font-size: 4em;
+  text-shadow: 0 0 4px yellow;
+  line-height: 0.6;
+}
+.cancelarReserva h1 small{
+  color: #fff;
+  font-family: 'Subtitulos';
+  font-size: 0.4em;
+}
+.cancelarReserva h1 span{
+  color: #fff;
+  font-family: 'Bart1';
+  font-size: 0.8em;
+}
+#cancelarReservaForm label{
+  color: #fff;
+}
+#cancelarReservaForm textarea{
+  width: 300px;
+  background: #c90000;
+  display: none;
+}
+#cancelarReservaForm button{
+  font-family: 'Bart2';
+  font-size: 2em;
+}
+
+.ventaCruzada{
+  display: none;
+}
+.ventaCruzada h2{
+  font-family: 'Titulos';
+  font-size: 3em;
+  margin-top: 30px;
+}
+.ventaCruzada img{
+  max-width: 300px;
+  margin-top: 15px;
+}
+.ventaCruzada .sede{
+  padding-top: 15px;
+  padding-bottom: 30px;
+  font-family: 'Bart1';
+  font-size: 2em;
+}

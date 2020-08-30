@@ -1,0 +1,60 @@
+.nuevo-evento{
+  padding-top: 80px;
+  background-image: url('../../images/ubicacion-bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.nuevo-evento h1{
+  font-family: 'Titulos';
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 4em;
+  letter-spacing: 1.5px;
+  text-shadow: 1px 1px 5px #c90000;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+.nuevo-evento h1 small{
+  color: #fff;
+  font-family: 'Subtitulos';
+  font-size: 0.5em;
+}
+.nuevo-evento form{
+  margin-bottom: 60px;
+}
+.nuevo-evento form .control-label {
+    font-size: 2em;
+    text-align: center;
+    color: #c90000;
+    text-shadow: 2px 2px 5px yellow;
+}
+.nuevo-evento .btn-default{
+  font-size: 2em;
+  padding: 10px 0 15px 0;
+  font-family: 'Subtitulos';
+  background: #c90000;
+}
+.nuevo-evento .btn-default:hover{
+  color: #fff;
+  text-shadow: 2px 2px 5px yellow;
+}
+.nuevo-evento .selectPols{
+  background: #c90000;
+  margin-top: 60px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  color: #fff;
+}
+.nuevo-evento .linksSugeridos a{
+  background: #c90000;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  font-family: 'Bart1';
+  font-size: 1.5em;
+}
+.nuevo-evento .linksSugeridos a:hover{
+  text-shadow: 2px 2px 5px yellow;
+}
